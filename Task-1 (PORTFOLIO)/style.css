@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serf;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #F5D7DB;
+}
+
+header {
+  overflow: hidden;
+}
+
+nav {
+  background-color: #473E66;
+  border-radius: 40px;
+  margin-top: 17px;
+  width: 85%;
+  margin-left: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.1rem 3.5rem;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav h1 {
+  color: #F1916D;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1.9rem;
+}
+
+nav ul li {
+  font-weight: 700;
+}
+
+nav a {
+  text-decoration: none;
+  color: #F1916D;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #F5D7DB;
+}
+
+.section1 h1 {
+  font-size: 65px;
+  text-align: center;
+  margin: 0;
+}
+
+.span {
+  color: #473E66;
+}
+
+.about {
+  display: flex;
+  margin-top: 40px;
+  padding: 0 50px;
+  text-align: center;
+}
+
+.text {
+  margin-top: 100px;
+  color: #142d4c;
+  font-weight: bold;
+}
+
+.image img {
+  width: 310px;
+  border-radius: 161px
+}
+
+.section2 {
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+  border-radius: 40px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #142d4c;
+  font-size: 42px;
+  text-shadow: 0 3px 10px white;
+}
+
+.skills-wrapper img {
+  padding: 1.25rem;
+}
+
+.icon {
+  width: 8.875rem;
+  height: 8.25rem;
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 10px 23px #142d4c;
+  padding: 20px;
+  margin: 16px;
+}
+
+.section3 {
+  padding: 32px 0;
+  margin-top: 2rem;
+}
+
+.project-pic {
+  width: 65%;
+  height: 60%;
+  border-radius: 10px;
+}
+
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-container p {
+  padding: 0.4rem;
+}
+
+.project-title {
+  margin-bottom: 0.5rem;
+  color: #142d4c;
+}
+
+.project-details {
+  margin-bottom: 0.5rem;
+  color: #473E66;
+}
+
+.project-card {
+  border-radius: 11px;
+  box-shadow: 0 3px 10px white;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 21.875rem;
+  padding: 1rem;
+  background: linear-gradient(#1B3358, #473E66, #BD83B8, #F5D7DB, #F1916D);
+}
+
+.link {
+  justify-content: center;
+  display: flex;
+  gap: 14px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding-top: 3px;
+}
+
+.resume-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 108px;
+  padding: 0 214px;
+}
+
+.resume-image img {
+  width: 239px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px #8b8eaf
+}
+
+.resume-description {
+  text-align: center;
+  color: #142d4c;
+}
+
+.resume-description button {
+  padding: 6px 12px;
+  border-radius: 30px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #1B3358;
+  cursor: pointer;
+  background-color: #FFA586;
+  border: none;
+  box-shadow: 0 3px 10px #B51A2B;
+}
+
+.heading {
+  color: #142d4c;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.about-me {
+  margin-top: 48px;
+  text-align: center;
+  color: #142d4c;
+}
+
+.last {
+  display: flex;
+  gap: 193px;
+  padding: 0 95px;
+}
+
+.last ul {
+  list-style-type: none
+}
+
+.last ul li {
+  margin-top: 7px;
+  color: #1B3358;
+}
+
+.last ul li a {
+  text-decoration: none;
+  color: #1B3358;
+}
+
+.line {
+  background-color: gray;
+  height: 2px;
+  margin: 28px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 39px 22px 39px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 770px) {
+  nav {
+    margin-left: 0;
+    width: auto;
+    padding: 0.1rem 1.5rem;
+  }
+
+  .section1 h1 {
+    font-size: 55px;
+  }
+
+  .text {
+    margin-top: auto;
+  }
+
+  .about {
+    display: grid;
+  }
+
+  .icon {
+    width: 7.875rem;
+    height: 7.25rem;
+  }
+
+  .projects-container {
+    display: grid;
+  }
+
+  .project-card {
+    width: 17.75rem;
+  }
+
+  .resume-container {
+    display: grid;
+    gap: 0;
+  }
+
+  .last {
+    display: grid;
+    gap: 0;
+    padding: 0;
+  }
+}
